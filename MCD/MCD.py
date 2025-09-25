@@ -31,11 +31,11 @@ def solicitar_numero(mensaje: str) -> int:
         try:
             valor = int(input(mensaje))
             if valor < 0:
-                print("⚠️ Error: debe ingresar un número entero POSITIVO.")
+                print(" Error: debe ingresar un número entero POSITIVO.")
             else:
                 return valor
         except ValueError:
-            print("⚠️ Error: debe ingresar un número válido (entero).")
+            print(" Error: debe ingresar un número válido (entero).")
 
 
 def main():
@@ -46,7 +46,7 @@ def main():
     b = solicitar_numero("Ingrese el segundo número entero positivo: ")
 
     # Calcular y mostrar resultado
-    print(f"✅ El MCD de {a} y {b} es {mcd(a, b)}")
+    print(f"El MCD de {a} y {b} es {mcd(a, b)}")
 
 
 if __name__ == "__main__":

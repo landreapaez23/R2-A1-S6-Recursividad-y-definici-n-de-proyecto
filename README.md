@@ -1,11 +1,11 @@
-# 🏗️ Torres de Hanoi (Python, Recursividad)
+#  Torres de Hanoi (Python, Recursividad)
 
 Este proyecto implementa el clásico problema de **Torres de Hanoi** utilizando **recursividad en Python**.  
 Incluye manejo de errores, personalización de torres, pruebas unitarias y flujo de trabajo colaborativo con **Git y GitHub**.
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 - Practicar **recursividad** en Python resolviendo el problema de las Torres de Hanoi.
 - Implementar validaciones de entrada (N discos, nombres de torres).
 - Imprimir cada movimiento con contador de pasos.
@@ -14,7 +14,7 @@ Incluye manejo de errores, personalización de torres, pruebas unitarias y flujo
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 TORRES/
 │── src/
 │ └── hanoi.py # Código principal
@@ -25,7 +25,7 @@ TORRES/
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 - Python 3.10 o superior
 - [pytest](https://docs.pytest.org/) para ejecutar pruebas
 
